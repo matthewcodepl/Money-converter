@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Money convert</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <h1 class="display-3 text-center col-md-12">
+                    Money Converter
+                </h1>
+                <form>
+                    <div class="form-group">
+                        <input
+                         type="number" 
+                         class="form-control-lg form-control-lg"
+                         id="lbsInput"
+                         placeholder="Enter the pln Money...">
+                    </div>
+                </form>
+                <div class="output">
+                    <div class="card ">
+                        <div class="card-block">
+                            <h4>
+                                Euro:
+                            </h4>
+                            <div id="euroOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card card-succes ">
+                        <div class="card-block">
+                            <h4>
+                                $ Dolars:
+                            </h4>
+                            <div id="dolarOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card card-danger">
+                        <div class="card-block">
+                            <h4>
+                                Funt brytyjski:
+                            </h4>
+                            <div id="funtOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
